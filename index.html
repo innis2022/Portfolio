@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>HIH 포트폴리오</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/portfolio.js"></script>
+
+<link rel="shortcut icon" href="images/char.ico" title="파비콘">
+<!-- <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+<link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+	<nav>
+		<div>
+			<p>WHANG IN HEE</p>
+			<div id="menu">
+				<a href="#top">Home</a>
+				<a href="#about">About</a>
+				<a href="#portfolio">Portfolio</a>
+				<a href="#draft">Draft design</a>
+				<a href="#event">Event</a>
+				<a href="#contact">Contact</a>
+			</div>
+		</div>
+	</nav>
+	<header id="top">
+		<video class="video" autoplay muted controlsplaysinline loop>
+			<source src="images/main.mp4" >
+		</video>
+		<div id="typing"></div>
+		<div id="click">
+			<i class="fas fa-chevron-down"></i>
+			<a href="#about">Click</a>
+		</div>
+	</header>
+	<section id="about" class="area">
+		<h2>ABOUT</h2>
+		<img src="images/ME2.jpg" alt="홍길동">
+		<!-- <p>
+			&#34; <mark>________________________</mark> 사 람&#34;<br>
+			<span>맡은 일을 꿋꿋히 수행하는</span>
+		</p> -->
+		<div>
+			<section>
+				<h3>Profile</h3>
+				<p>
+					이름 : 황인희 (HWANG IN HEE)<br>
+					나이 : 26세 (1998.01.27)<br>
+					주소 :  경기도 광주시 순암로<br>
+					연락처 : 010-9082-8925<br>
+					E-mail :inhee8925@naver.com
+				</p>
+			</section>
+			<section>
+				<h3>Experiences & Education</h3>
+				<p>
+					2022.09 - 2023.01 : 이젠컴퓨터아트학원 웹디자인 & 웹퍼블리셔과정 수료<br>
+					2021.10 - 2022.07 : 탑스타 야탑,의왕지점 온라인 MD & 판매<br>
+					2018.04 - 2021.06 : 큐브에이치알 럭셔리갤러리 판매 & MD보조<br>
+					2017.08 - 2018.03 : SPAD 디자인 & 유인물 작업 <br>
+					2016.03 - 2018.02 : 동원대학교 시각디자인과 졸업<br>
+				</p>
+			</section>
+			<section id="skill">
+				<h3>Skill</h3>
+				<form>
+					<p id="photo">						
+						<label>Photoshop, Illustrator</label>
+						<progress value="0" max="100">90%</progress>
+					</p>
+					<p id="html">
+						<label>HTML5, CSS3</label>
+						<progress value="0" max="100">80%</progress>
+					</p>
+					<p id="jquery">
+						<label>jQurey, Vue.js</label>
+						<progress value="0" max="100">50%</progress>
+					</p>
+					<p id="oven">
+						<label>OVEN, Figma</label>
+						<progress value="0" max="100">70%</progress>
+					</p>
+				</form>
+			</section>
+		</div>
+	</section>
+	<div id="portfolio" class="area">
+		<h2>PORTFOLIO</h2>
+
+	<!-- <div class="portCover p1"> -->
+		<section id="port1">
+			<div class="right">
+				<img src="images/portfolio-1_.png" alt="포트폴리오 고바진">
+			</div>
+			<div class="left">
+				<h3>고바진</h3>
+				<div>
+				<ul>
+					<li>
+						<b>사이트명</b>
+						<span>고바진_Gobajean</span>
+					</li>						
+					<li>
+						<b>제작기간</b>
+						<span>2021.09.15 - 2021.10.05</span>
+					</li>
+					<li>
+						<b>제작물</b>
+						<span>메인페이지 / 서브페이지<br>
+							소개, 맛집, 관광, 커뮤니티, 마이페이지, 로그인/회원가입</span>
+					</li>
+					<li>
+						<b>컨셉</b>
+						<span>눈이 편안한, 휴식, 여행</span>
+					</li>
+				</ul>
+				<p>
+					<b>컨셉설명</b>
+					<span>제주여행을 준비하려는 이들에게 맛집과 관광스폿을, 제주관광 사이트를 만들어 서로 알고있는 자신만의 맛집과 관광스폿을 알려주거나 여행준비로 어디를 갈지 고민인 사람들에게 장소나 맛집을 추천해줄 수 있는, 보다 서로에게 조금 더 재미있는 여행(추억)이 될 수 있도록 글을 공유하며 또는 제주의 홍보하고 싶거나 자랑하고 싶은 리뷰 사이트입니다</span>					
+				</p>					
+				</div>
+				<p class="port1Buttton-cover">
+				<a href="https://www.miricanvas.com/v/11lvme1" target="_blank">제작 기획서</a>
+				<a href="https://innis2022.github.io/gobajean/" target="_blank">웹사이트 바로가기</a></p>
+				<!-- <a href="site/chania/index.html" onclick="window.open(this.href, 'win1', 'top=10, left=100 , width=414, height=740, toolbar=no, scrollbars=no, resizable=yes'); return false;"   onkeypress="this.onclick()">모바일웹 바로가기</a> -->
+			</div>			
+		</section>
+
+		<section id="port2">
+			<div class="left">
+				<img src="images/portfolio-2.png" alt="포트폴리오 BLACKPINK">
+			</div>
+			<div class="right">
+				<h3>BLACK PINK</h3>
+				<ul>
+					<li>
+						<b>사이트명</b>
+						<span>BLACKPINK </span>
+					</li>
+					<li>
+						<b>제작기간</b>
+						<span>2022.12.01 - 2022.12.16</span>
+					</li>
+					<li><b>
+						제작물</b>
+						<span>메인페이지와 서브페이지<br>
+							MEMBER(멤버상세페이지 포함),About, Album, Mv, Wold Tour_반응형</span>
+					</li>
+					<li>
+						<b>컨셉</b>
+						<span>PINKPUNK, 대중적인, </span>
+					</li>
+					<li>
+						<b>컨셉설명</b>
+						<span>kpop의 대명사 중 하나인 블랙핑크의 대표적인 컬러 블랙&핑크로 전체적인 컬러조합으로 배치했으며강렬한 대비컬러와 화려한 비주얼이 조화로울 수 있도록 구도는 최대한 심플하게 디자인했습니다. 
+						</span>
+					</li>
+				</ul>
+				<a href="https://www.miricanvas.com/v/11ozgdo" target="_blank">제작 기획서</a>
+				<a href="https://innis2022.github.io/blackpink/" target="_blank">웹사이트 바로가기</a>		
+				<a href="https://innis2022.github.io/blackpink/" onclick="window.open(this.href, 'win1', 'top=10, left=100 , width=375, height=740, toolbar=yes, scrollbars=no, resizable=yes'); return false;"   onkeypress="this.onclick()">모바일웹 프로토타입</a>
+			</div>
+		</section>
+
+		<section id="port3">
+			<div class="left">
+				<h3>Eternal</h3>
+				<ul>
+					<li>
+						<b>사이트명</b>
+						<span>Eternal</span>
+					</li>
+					<li>
+						<b>제작기간</b>
+						<span>2019.07.29 - 2019.08.16</span>
+					</li>
+					<li>
+						<b>제작물</b>
+						<span>메인페이지</span>
+					</li>
+					<li>
+						<b>컨셉</b>
+						<span>따뜻한, 감성적인, 포근함</span>
+					</li>
+					<li>
+						<b>컨셉설명</b>
+						<span>여러가지 브랜드가 있는 향수 편집샵입니다. 브라운과 아이보리의 컬러감은 따뜻하고 포근한 이미지를 연상하며 실크와 꽃의 이미지는 향을 강조하는 느낌을 불어넣었습니다. 전체적인 이미지가 화려하여 레이아웃은 상품을 부각하는 구조로 되어있으며 Eternal 만의 분위기를 돋보이게 만들었습니다.
+						</span>
+					</li>
+				</ul>
+				<a href="https://www.miricanvas.com/v/11oravj" target="_blank">제작 기획서</a>
+				<a href="https://innis2022.github.io/Eternal/" target="_blank">웹사이트 바로가기</a>
+			</div>
+			<div class="right">
+				<img src="images/portfolio-3.png" alt="포트폴리오 태영건설">
+			</div>
+		</section>
+
+		<section id="port4">
+			<div class="right">
+				<img src="images/portfolio-4.png" alt="포트폴리오 와인천국">
+			</div>
+			<div class="left">
+				<h3>와인천국</h3>
+				<div>
+				<ul>
+					<li>
+						<b>사이트명</b>
+						<span>와인천국_Wine Heaven</span>
+					</li>						
+					<li>
+						<b>제작기간</b>
+						<span>2022.12.20 - 2023.01.02</span>
+					</li>
+					<li>
+						<b>제작물</b>
+						<span>메인페이지</span>
+					</li>
+					<li>
+						<b>컨셉</b>
+						<span>심플한, 비비드</span>
+					</li>
+				</ul>
+				<p>
+					<b>컨셉설명</b>
+					<span>와인천국은 동대문에 위치한 오프라인매장의 사이트를 리뉴얼했으며 한쪽으로 쏠린 레이아웃과 눈이 피로해질 수 있는 많은 섹션과 메뉴를 최소화했습니다.</span>					
+				</p>					
+				</div>
+				<p class="port1Buttton-cover">
+				<a href="https://www.miricanvas.com/v/11owp52" target="_blank">테스트 기획서</a>
+				<a href="https://innis2022.github.io/Wine/" target="_blank">웹사이트 바로가기</a></p>
+			</div>			
+		</section>
+	</div>
+
+	<section id="draft" class="area">
+        <h2>site design</h2>
+        <h2>initial draft</h2>
+        <div>
+            <a href="draft/design1.html" target="_blank">
+				<img src="images/1.jpg" alt="서울 사진학원">
+			</a>
+			<a href="draft/design2.html" target="_blank" >
+				<img src="images/2.jpg" alt="그랜드부다페스트호텔">
+			</a>
+			<a href="draft/design3.html" target="_blank">
+				<img src="images/3.jpg" alt="CAT">
+			</a>
+        </div>
+
+    </section>
+
+	<section id="event" class="area">
+		<h2>EVENT & DETAIL</h2>
+		<div>
+			<div>
+				<img src="images/event-1.jpg" alt="SUPER SALE">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>
+			<div>
+				<img src="images/event-2.jpg" alt="BLACK WEEK">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>
+			<div>
+				<img src="images/event-3.jpg" alt="DESIGN 공모전">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>
+			<div>
+				<img src="images/event-4.jpg" alt="TOPSTAR 행사전">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>
+			<div>
+				<img src="images/event-5.jpg" alt="MEMA X 신세계 콜라보">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>
+			<div>
+				<img src="images/event-6.jpg" alt="시즌오프">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>
+			<div>
+				<img src="images/event-7.jpg" alt="의류기획전">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>
+			<div>
+				<img src="images/event-8.jpg" alt="봄 페스티벌">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>
+			<div>
+				<img src="images/event-9.jpg" alt="코리아세일 페스타">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>			
+			<div>
+				<img src="images/event-10.jpg" alt="SNS 공유하고 선물받자">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>
+			<div>
+				<img src="images/event-11.jpg" alt="블랙 버스터">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>			
+			<div>
+				<img src="images/event-12.jpg" alt="여행 후기 이벤트">
+				<p>
+					<i class="fas fa-search"></i>
+					<b>자세히보기</b>
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="contact" class="area">
+		<h2>
+			CONTACT US
+			<b>소중한 연락을 기다립니다!</b>
+		</h2>		
+		<div>
+			<section>
+				<img src="images/mail.png" alt="mail"></img>
+				<h3>E-mail</h3>
+				<p>inhee8925@naver.com</p>
+			</section>
+			<section>
+				<img src="images/call.png" alt="phone"></img>
+				<h3>Phone</h3>
+				<a href="tel:010-1234-5678">010.9082.8925</a>
+			</section>
+			<section>
+				<a href="https://innis2022.github.io/mypage/" target="_blank"><img src="images/account.png" alt="user"></a>
+				<h3>account</h3>
+				<p>innis2022.github.io/mypage/</p>
+			</section>
+		</div>
+	</section>
+	<footer>
+	</footer>
+	<!-- 큰 이미지 -->
+	<section id="popup">
+		<h3>제목</h3>
+		<img src="#" alt="#">
+	</section>
+</body>
+</html>
