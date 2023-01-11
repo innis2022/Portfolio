@@ -148,7 +148,7 @@ video {
 }
 #skill progress {
 	width:53%; 
-	/* -webkit-appearance:none; */
+	-webkit-appearance:none; 
 }
 #skill ::-webkit-progress-bar {
 	background:#eee; height:10px; border-radius:5px;
