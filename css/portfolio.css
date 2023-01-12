@@ -71,8 +71,8 @@ nav p {
 	animation: AnimationName 15s ease infinite; */
 }
 video {
-	background-color: #262626 ;
-	background: url() no-repeat;
+	background-color: #262626 ; height:100vh;
+/* 	background: url() no-repeat; */
 }
 
 #typing {	
@@ -378,7 +378,7 @@ video {
 	#portfolio div.left {margin-right:0;}
 	#portfolio section:nth-of-type(odd) div.left{order:2;}
 	#portfolio section:nth-of-type(odd) div.right{order:1;}
-	#portfolio section:not(:first-child){padding-top:0vh;}
+/* 	#portfolio section:not(:first-child){padding-top:0vh;} */
 	#portfolio ul {padding-bottom:10pt;}
 	#portfolio li {flex-direction:column;}	
 	#portfolio a {padding:4pt 6pt 5px 6px;}
@@ -413,6 +413,8 @@ video {
 }
 /******************************************/
 @media(max-width:550px){
+	#typing {font-size: 1.3rem; left:17vw;}
+	.area h2 { font-size: 2rem; }
 	#draft h2 { font-size: 3rem;}
 	#contact div {display:block;}
 	#contact section { margin-top:20px; }
