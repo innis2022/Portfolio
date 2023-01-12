@@ -413,7 +413,7 @@ video {
 }
 /******************************************/
 @media(max-width:550px){
-	#typing {font-size: 1.3rem; left:17vw;}
+	#typing {font-size: 1.3rem; left:20vw;}
 	.area h2 { font-size: 2rem; }
 	#draft h2 { font-size: 3rem;}
 	#contact div {display:block;}
