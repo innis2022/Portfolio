@@ -415,6 +415,6 @@ video {
 @media(max-width:550px){
 	#draft h2 { font-size: 3rem;}
 	#contact div {display:block;}
-	
+	#contact section { margin-top:20px; }
 }
 /******************************************/
