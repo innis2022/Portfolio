@@ -412,3 +412,9 @@ video {
 
 }
 /******************************************/
+@media(max-width:550px){
+	#draft h2 { font-size: 3rem;}
+	#contact div {display:block;}
+	
+}
+/******************************************/
